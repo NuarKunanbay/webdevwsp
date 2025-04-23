@@ -19,7 +19,7 @@
         <div class="account_info">
           <ul class="header_log_in">
             <li class="header_account">
-              <a href="#!" class="header_account_link">mclovin@kbtu.kz</a>
+              <a href="#!" class="header_account_link" onclick="alert('Login clicked!')">mclovin@kbtu.kz</a>
             </li>
             <li class="header_telephone">
               <a href="#!" class="header_telephone_link">21B030228</a>
@@ -42,7 +42,7 @@
             <div class="tools_section left_tool_section">
               <ul class="tools_list">
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('Schedule clicked!'); fetch('http://localhost:5001/api/schedule').then(response => response.json()).then(data => alert('Schedule data loaded!')).catch(error => alert('Error loading schedule data'));">
                     <div class="element_image">
                       <img src="./picture/ScheduleIcon.png" alt="" />
                     </div>
@@ -53,7 +53,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('Journal clicked!')">
                     <div class="element_image">
                       <img src="./picture/GradeIcon.png" alt="" />
                     </div>
@@ -64,7 +64,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('Attendance clicked!')">
                     <div class="element_image">
                       <img src="./picture/AttendanceIcon.png" alt="" />
                     </div>
@@ -75,7 +75,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('Add/Drop clicked!')">
                     <div class="element_image">
                       <img src="./picture/AddDropIcon.png" alt="" />
                     </div>
@@ -86,7 +86,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('Registration clicked!')">
                     <div class="element_image">
                       <img src="./picture/NoteIcon.png" alt="" />
                     </div>
@@ -101,7 +101,7 @@
             <div class="tools_section right_tool_section">
               <ul class="tools_list">
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('Finances clicked!')">
                     <div class="element_image">
                       <img src="./picture/FinancialOfficeIcon.png" alt="" />
                     </div>
@@ -112,7 +112,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('Questionnaire clicked!')">
                     <div class="element_image">
                       <img src="./picture/QuestionnaireIcon.png" alt="" />
                     </div>
@@ -123,7 +123,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('ICP clicked!')">
                     <div class="element_image">
                       <img src="./picture/IcpIcon.png" alt="" />
                     </div>
@@ -134,7 +134,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('Private data clicked!')">
                     <div class="element_image">
                       <img src="./picture/PrivateInfoIcon.png" alt="" />
                     </div>
@@ -145,7 +145,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="tools_element">
+                  <div class="tools_element" onclick="alert('News clicked!')">
                     <div class="element_image">
                       <img src="./picture/NewsIcon.png" alt="" />
                     </div>
@@ -202,5 +202,6 @@
       </div>
       <footer></footer>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
