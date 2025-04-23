@@ -1,0 +1,1330 @@
+@import url(//db.onlinewebfonts.com/c/031da03967812d134ed68febd3ba78a9?family=GT+America);
+@font-face {
+  font-family: "GT America";
+  src: url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.eot");
+  src: url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.svg#GT America") format("svg");
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+#KBTULogo{
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65));}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End of cssreset */
+
+/* CSS classes (non-generated) */
+/* Current bugs:
+Mobile version is not properly supported
+Header and section sizes were modified
+Buttons don't work (no actions specified) */
+
+#navigation_header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1440px;
+  height: 10%;
+  background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65)), url(src/assets/Rectangle_log.jpg);
+}
+
+#navigation_header .image_logo {
+  margin: 10px 30px 10px 30px;
+}
+
+#navigation_header .account_info {
+  display: flex;
+  justify-content: left;
+  align-items:flex-start;
+  padding: 10px 30px 10px 30px;
+}
+
+#navigation_header .account_info .header_log_in {
+  font-size: 20px;
+  margin: 10px 30px 10px 20px;
+}
+
+#navigation_header .account_info .header_log_in a {
+  color: #DAD9D9;
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+}
+#navigation_header .account_info .header_log_in a:active,
+#navigation_header .account_info .header_log_in a:focus {
+  color: rgba(194, 179, 179, 0.61);
+}
+
+#navigation_header .account_info .header_log_in a:hover {
+  color:#ffffff67;
+  opacity: 0.8;
+}
+
+#navigation_header .account_info .header_face {
+  margin: 10px 30px 10px 20px;
+}
+
+#navigation_header .account_info .header_exit {
+  margin: 10px 30px 10px 20px;
+}
+
+#navigation_header .account_info .header_exit:hover {
+  color: #ffffff67;
+  opacity: 0.8;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  /* This gradient doesn't look quite right */
+  /* Will need to fix it */
+  background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65));
+}
+
+#content {
+  display: flex;
+  width: 100%;
+  min-height: 770px;
+  flex: 1;
+}
+
+#tools {
+  flex: 2;
+  background: #292E3C;
+  padding: 10px 20px 20px 10px;
+}
+
+.content_section_header {
+  font-family: 'GT America', Helvetica, sans-serif;
+  color: white;
+  font-size: 48px;
+  margin: 10px 20px 30px 30px;
+}
+
+.content_sections {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#news {
+  padding: 10px 10px 10px 10px;
+  flex: 1;
+  background: #242935;
+}
+
+.tools_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tools_list {
+  background: transparent;
+}
+
+.tools_list li {
+  margin: 20px;
+}
+
+.tools_list li {
+  background: transparent;
+}
+
+.tools_element {
+  padding: 15px 15px 15px 15px;
+  display: flex;
+}
+
+.tools_element .element_image {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  width: 40px;
+}
+
+.tools_element .element_image img {
+  object-fit: contain;
+}
+
+.tools_element:hover {
+  background-color: rgb(67, 74, 92);
+}
+
+.element_text {
+  margin-left: 15px;
+  color: white;
+  background: transparent;
+}
+
+.element_text h3, h2{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.news_preview {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin: 0px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.news_preview .element_image {
+  display: flex;
+  justify-content: center;
+}
+
+.news_preview .element_image img {
+  object-fit: contain;
+}
+
+.news_preview h3 {
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #DAD9D9;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 1920px;
+  height: 100vh;
+}
+
+
+/*    Oleg ne zabud dobavit "JS" */                                                                     /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                                   /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                                 /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                               /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                             /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                           /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                         /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                       /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                     /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                   /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                                 /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                               /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                             /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                           /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                         /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                       /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                     /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                   /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                                 /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                               /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                             /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                           /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                         /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                       /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                     /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                   /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */                 /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */               /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */             /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */           /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */         /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */       /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */     /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */   /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */ /*    Oleg ne zabud dobavit "JS" */
+/*    Oleg ne zabud dobavit "JS" */
+
+
+
+/*    Start of First Section   */
+
+.head{
+  position: static;
+  width: 1920px;
+  height: 155px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65)), url(./picture/Rectangle_log.jpg);
+  box-shadow: 0px 4px 5px rgba(29, 32, 41, 0.41);
+}
+
+content {
+  margin-top: 60px;
+}
+
+#face{
+  border-radius: 25px;
+}
+
+.header_face{
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  left: 1731px;
+  top: 15px;
+}
+
+.header_logo{
+  position: absolute;
+  width: 221px;
+  height: 66px;
+  left: 67px;
+  top: 56px;
+}
+
+.header_exit{
+  position: absolute;
+  width: 28px;
+  height: 36px;
+  left: 1798px;
+  top: 23px;
+}
+
+.header_exit:hover{
+  color: #ffffff67;
+  opacity: 0.8;
+}
+
+.header_exit:active, .header_exit:focus{
+  color: rgba(194, 179, 179, 0.61);
+}
+
+.header_log_in a:hover{
+  color: #ffffff67;
+  opacity: 0.8;
+}
+
+.header_log_in a:active,  .header_log_in a:focus{
+  color: rgba(194, 179, 179, 0.61);
+}
+
+
+.header_account_link{
+  position: absolute;
+  width: 153px;
+  height: 20px;
+  left: 1550px;
+  top: 27px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+
+  color: #DAD9D9;
+}
+
+.header_telephone_link{
+  position: absolute;
+  width: 102px;
+  height: 24px;
+  left: 1600px;
+  top: 56px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+
+  color: #DAD9D9;
+}
+
+/*    End of First Section   */
+
+/*    Start of Second Section   */
+
+.news{
+  position: absolute;
+  width: 759px;
+  height: 924px;
+  left: 1161px;
+  top: 155px;
+
+  background: #242935;
+}
+
+.news h1{
+  position: absolute;
+  width: 73px;
+  height: 34px;
+  left: 35px;
+  top: 61px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+
+
+  color: white;
+}
+
+.news h2{
+  position: absolute;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.news a{
+  text-decoration: none;
+}
+
+
+.news a:hover,.news a:focus,.news a:active{
+  opacity: 0.8;
+}
+/*   это пиздец   */
+
+
+.martin img{
+  position: absolute;
+  width: 271.89px;
+  height: 138.23px;
+  left: 35px;
+  top: 122px;
+}
+
+.martin h2{
+  position: absolute;
+  width: 271.89px;
+  height: 138.23px;
+  left: 335px;
+  top: 122px;
+}
+
+.martin p{
+  position: absolute;
+  width: 354px;
+  height: 70px;
+  left: 335px;
+  top: 159px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+.martin a{
+  position: absolute;
+  width: 96px;
+  height: 31px;
+  left: 335px;
+  top: 229px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #5E8AFF;
+
+}
+
+.martin h3{
+  position: absolute;
+  width: 157px;
+  height: 17px;
+  left: 532px;
+  top: 236px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #DAD9D9;
+}
+
+.university img{
+  position: absolute;
+  width: 271.89px;
+  height: 138.23px;
+  left: 35px;
+  top: 321px;
+}
+
+.university h2{
+  position: absolute;
+  width: 271.89px;
+  height: 138.23px;
+  left: 335px;
+  top: 321px;
+}
+
+.university p{
+  position: absolute;
+  width: 354px;
+  height: 70px;
+  left: 335px;
+  top: 358px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+.university a{
+  position: absolute;
+  width: 96px;
+  height: 31px;
+  left: 335px;
+  top: 428px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #5E8AFF;
+
+}
+
+.university h3{
+  position: absolute;
+  width: 157px;
+  height: 17px;
+  left: 532px;
+  top: 435px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #DAD9D9;
+}
+
+
+.rus img{
+  position: absolute;
+  width: 271.89px;
+  height: 138.23px;
+  left: 35px;
+  top: 520px;
+}
+
+.rus h2{
+  position: absolute;
+  width: 271.89px;
+  height: 138.23px;
+  left: 335px;
+  top: 520px;
+}
+
+.rus p{
+  position: absolute;
+  width: 354px;
+  height: 70px;
+  left: 335px;
+  top: 557px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+.rus a{
+  position: absolute;
+  width: 96px;
+  height: 31px;
+  left: 335px;
+  top: 627px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #5E8AFF;
+
+}
+
+.rus h3{
+  position: absolute;
+  width: 157px;
+  height: 17px;
+  left: 532px;
+  top: 634px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #DAD9D9;
+}
+
+
+
+/*      конец    */
+
+.view_all{
+  position: absolute;
+  width: 117px;
+  height: 31px;
+  left: 35px;
+  top: 719px;
+  background: url(src/assets/Arrow_1.svg) no-repeat right;
+  text-decoration: none;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #5E8AFF;
+}
+/*    End of Second Section   */
+
+
+/*   Start of Third Section */
+
+
+.resources{
+  position: absolute;
+  width: 1161px;
+  height: 924px;
+  left: 0px;
+  top: 155px;
+
+  background: #292E3C;;
+  box-shadow: 0px 4px 5px rgba(29, 32, 41, 0.41);
+}
+
+.resources h1{
+  position: absolute;
+  width: 152px;
+  height: 35px;
+  left: 160px;
+  top: 31px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+}
+
+
+.schedule img{
+  position: absolute;
+  width: 44px;
+  height: 45px;
+  left: 159px;
+  top: 149px;
+}
+
+.schedule a{
+  position: absolute;
+  width: 123px;
+  height: 33px;
+  left: 217px;
+  top: 155px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.schedule p{
+  position: absolute;
+  width: 204px;
+  height: 33px;
+  left: 217px;
+  top: 188px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+
+}
+
+.journal img{
+  position: absolute;
+  width: 38px;
+  height: 35px;
+  left: 162px;
+  top: 257px;
+}
+
+.journal a{
+  position: absolute;
+  width: 123px;
+  height: 33px;
+  left: 217px;
+  top: 257px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+
+}
+
+.journal p{
+  position: absolute;
+  width: 204px;
+  height: 32px;
+  left: 217px;
+  top: 290px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+
+.attendance img{
+  position: absolute;
+  width: 38px;
+  height: 35px;
+  left: 162px;
+  top: 359px;
+}
+
+.attendance a{
+  position: absolute;
+  width: 147px;
+  height: 32px;
+  left: 217px;
+  top: 359px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.attendance p{
+  position: absolute;
+  width: 204px;
+  height: 33px;
+  left: 217px;
+  top: 391px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+.add img{
+  position: absolute;
+  width: 42px;
+  height: 38px;
+  left: 167px;
+  top: 455px;
+}
+
+.add a{
+  position: absolute;
+  width: 256px;
+  height: 33px;
+  left: 217px;
+  top: 455px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.add p{
+  position: absolute;
+  width: 169px;
+  height: 48px;
+  left: 217px;
+  top: 493px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+
+.reg img{
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  left: 167px;
+  top: 570px;
+}
+
+.reg a{
+  position: absolute;
+  width: 256px;
+  height: 33px;
+  left: 217px;
+  top: 570px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.reg p{
+  position: absolute;
+  width: 189px;
+  height: 48px;
+  left: 217px;
+  top: 603px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+/*  найс заебка с коробкой */
+
+/*    коробка 1 */
+
+
+.schedule:hover{
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left: 141px;
+  top: 145px;
+  background: url(./picture/Rectangle_res.svg);
+}
+
+.journal:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left: 141px;
+  top: 245px;
+}
+
+.attendance:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left: 141px;
+  top: 345px;
+}
+
+.add:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left: 141px;
+  top: 445px;
+}
+
+.reg:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left: 141px;
+  top: 545px;
+}
+
+
+/*        конец коробка 1      */
+
+.resources_items a{
+  text-decoration: none;
+}
+
+/*  resources  1 start */
+
+
+/*  End of resources 1  */
+
+
+/* Start of resources 2   */
+
+.fin img{
+  /* position: absolute;
+  width: 49px;
+  height: 45px;
+  left: 675px;
+  top: 149px;     */
+}
+
+.fin a{
+  /* position: absolute;
+  width: 123px;
+  height: 33px;
+  left: 736px;
+  top: 149px; */
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.fin p{
+  position: absolute;
+  /* width: 215px;
+  height: 33px;
+  left: 736px;
+  top: 188px; */
+  top: 0;
+  left: 0;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+
+.quest img{
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 671px;
+  top: 257px;
+}
+
+.quest a{
+  position: absolute;
+  width: 179px;
+  height: 33px;
+  left: 736px;
+  top: 257px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.quest p{
+  position: absolute;
+  width: 205px;
+  height: 32px;
+  left: 736px;
+  top: 290px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+.icp img{
+  position: absolute;
+  width: 38px;
+  height: 32px;
+  left: 682px;
+  top: 355px;
+}
+
+.icp a{
+  position: absolute;
+  width: 215px;
+  height: 32px;
+  left: 736px;
+  top: 355px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.icp p{
+  position: absolute;
+  width: 205px;
+  height: 33px;
+  left: 736px;
+  top: 391px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+
+.pd img{
+  position: absolute;
+  width: 38px;
+  height: 27px;
+  left: 682px;
+  top: 464px;
+}
+
+.pd a{
+  position: absolute;
+  width: 256px;
+  height: 33px;
+  left: 736px;
+  top: 464px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.pd p{
+  position: absolute;
+  width: 178px;
+  height: 24px;
+  left: 736px;
+  top: 493px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+.new img{
+  position: absolute;
+  width: 35px;
+  height: 40px;
+  left: 685px;
+  top: 570px;
+}
+
+.new a{
+  position: absolute;
+  width: 256px;
+  height: 33px;
+  left: 736px;
+  top: 570px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.new p{
+  position: absolute;
+  width: 141px;
+  height: 24px;
+  left: 736px;
+  top: 603px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #DAD9D9;
+}
+
+
+/*    коробка 2 */
+
+.fin{
+  position: relative;
+  width: 321px;
+  height: 89px;
+  left:  657px;
+  top: 145px;
+  opacity: 0.8;
+}
+
+.fin:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left:  657px;
+  top: 145px;
+
+  /* background-color: #5E8AFF; */
+
+}
+
+.quest:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left:  657px;
+  top: 245px;
+}
+
+.icp:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left:  657px;
+  top: 345px;
+}
+
+.pd:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left:  657px;
+  top: 445px;
+}
+
+.new:hover{
+  background: url(./picture/Rectangle_res.svg);
+  position: absolute;
+  width: 321px;
+  height: 89px;
+  left:  657px;
+  top: 545px;
+}
+
+
+/*        конец коробка 1      */
+
+.resources_2 a{
+  text-decoration: none;
+}
+
+.resources_2 {
+  position: relative;
+}
+
+
+/*   End of Third Section */
+
+.res_item {
+
+}
+

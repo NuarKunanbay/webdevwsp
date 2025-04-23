@@ -1,0 +1,220 @@
+    body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: #292E3C;
+        border: 1px solid #000000;
+        text-decoration: none;
+    }
+    
+    .head {
+        position: absolute;
+        width: 1920px;
+        height: 0px;
+        left: 0px;
+        top: 162px;
+        border: 1.2px solid #33394A;
+    }
+    
+    /* .image {
+        position: absolute;
+        width: 221px;
+        height: 0px;
+        left: 0px;
+        top: 100px;
+    } */
+    
+    .home_link {
+        text-decoration: none;
+        position: absolute;
+        width: 84px;
+        height: 36px;
+        left: 312px;
+        top: -100px;
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #DAD9D9;
+    }
+    
+    .home_link:hover,
+    .home_link:focus {
+        opacity: 1.1;
+    }
+    
+    .student_info {
+        position: absolute;
+        width: 1151px;
+        height: 918px;
+        left: 334px;
+        top: 162px;
+        background: #33394A;
+    }
+    
+    .student_info h1 {
+        position: absolute;
+        width: 189px;
+        height: 39px;
+        left: 62px;
+        top: 41px;
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+    }
+    /*
+    кринджатина 
+    Контент слева
+*/
+    /* .first {
+        position: absolute;
+        height: 28px;
+        left: 95px;
+        top: 121px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        display: none;
+    }
+    
+    .second {
+        position: absolute;
+        height: 28px;
+        left: 272px;
+        top: 121px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        display: none;
+    } */
+    
+    .base {
+        display: none;
+        position: relative;
+        height: 28px;
+        left: 95px;
+        top: 121px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #DAD9D9;
+    }
+    
+    .base img {
+        position: absolute;
+        margin-top: 19px;
+        -webkit-user-select: none;
+        /* Chrome/Safari/Opera */
+        -khtml-user-select: none;
+        /* Konqueror */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+    }
+    /* .student_info th {
+        position: relative;
+        height: 28px;
+        left: 95px;
+        top: 121px;
+        width: 293px;
+        width: auto;
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        identical to box height color: #FFFFFF;
+    }
+    
+    .student_info td {
+        position: absolute;
+        width: 116px;
+        height: 28px;
+        left: 272px;
+        top: 121px;
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        identical to box height color: #FFFFFF;
+    } */
+    /*Контент слева*/
+    /* контент справа*/
+    
+    .student img {
+        position: absolute;
+        width: 223px;
+        height: 282px;
+        left: 1485px;
+        top: 161px;
+    }
+    
+    .box {
+        position: absolute;
+        width: 223px;
+        height: 59px;
+        left: 1485px;
+        top: 443px;
+        background: #3C445A;
+    }
+    
+    .box h1 {
+        position: absolute;
+        width: 27px;
+        height: 20px;
+        left: 15px;
+        top: 0px;
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #DAD9D9;
+    }
+    
+    .box h2 {
+        position: absolute;
+        width: 167px;
+        height: 20px;
+        left: 15px;
+        top: 17px;
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #DAD9D9;
+    }
+    
+    .box h3 {
+        position: absolute;
+        width: 57px;
+        height: 13px;
+        left: 15px;
+        top: 37px;
+        font-family: 'GT America';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #DAD9D9;
+    }
+
+    
+    .base td {
+        border-bottom: red solid 1px;
+    }
+
+    .divider_line {
+        width: 1000px;
+    }

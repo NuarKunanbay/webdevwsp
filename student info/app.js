@@ -1,0 +1,1 @@
+const sayPrint = document.querySelectorAll(.student_info p)

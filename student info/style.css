@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #292E3C;
+    border: 1px solid #000000;
+    text-decoration: none;
+}
+
+.head {
+    position: absolute;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 162px;
+    border: 1.2px solid #33394A;
+}
+
+.head img {
+    position: absolute;
+    width: 221px;
+    height: 0px;
+    left: 67px;
+    top: 63px;
+}
+
+.home_link {
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 312px;
+    top: 83px;
+    font-family: 'GT America';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #DAD9D9;
+}

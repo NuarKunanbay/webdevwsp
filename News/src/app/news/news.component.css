@@ -1,0 +1,137 @@
+.main{
+  position: absolute;
+  background-color: rgb(41 46 60);
+  height: 710px;
+  bottom: 75px;
+}
+
+
+/*.news{
+  position: absolute;
+  background-color: rgb(41 46 60);
+  bottom: 500px;
+  padding-top: 10px;
+  padding-left: 1584px;
+  padding-bottom: 90px;
+
+}*/
+
+#h1_news {
+  position: absolute;
+  width: 73px;
+  left: 160px;
+  top: 25px;
+  height: 100px;
+
+  font-family: 'GT America', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #DAD9D9;
+}
+
+#content{
+  position: relative;
+  top: 80px;
+  color: black;
+  background-color: #33394a;
+  padding: 100px;
+  width: 1920px;
+  height: 534px;
+}
+
+.first_column{
+  display: block;
+  position: relative;
+  bottom: 60px;
+  right: 60px;
+  width: 654px;
+  height: 120px;
+  margin: 25px;
+  margin-left: 140px;
+}
+
+.second_column{
+  display: block;
+  position: relative;
+  left: 960px;
+  bottom: 490px;
+  width: 654px;
+  height: 120px;
+  margin: 25px;
+}
+
+.images{
+  border-radius: 20px;
+}
+
+.title{
+  position: absolute;
+  left: 210px;
+  bottom: 80px;
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.text{
+  word-wrap: break-word;
+  position: relative;
+  left: 210px;
+  bottom: 80px;
+  width: 430px;
+  height: 50px;
+
+  font-family: 'GT America';
+  font-style: normal;
+}
+
+.description{
+  word-wrap: break-word;
+  display: inline-block;
+  position: relative;
+  font-family: 'GT America';
+  font-style: normal;
+}
+
+.more{
+  border: none;
+  background-color: inherit;
+  color: blue;
+  position: relative;
+  left: 210px;
+  bottom: 78px;
+  font-size: 20px;
+  font-family: 'GT America';
+  font-weight: bold;
+}
+
+.more:hover{
+  cursor: pointer;
+}
+
+.date{
+  position: relative;
+  bottom: 70px;
+  left: 410px;
+  color: grey;
+  font-family: 'GT America';
+}
+
+.footer{
+  position: absolute;
+  background-color: rgb(41 46 60);
+  top: 860px;
+  width: 1920px;
+  height: 80px;
+}
+
+
+#pagination{
+  position: absolute;
+  left: 45%;
+  bottom: 50px;
+}

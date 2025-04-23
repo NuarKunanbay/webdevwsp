@@ -1,0 +1,23 @@
+{
+  "name": "wsp_project",
+  "version": "0.0.1",
+  "description": "Remake version of KBTU WSP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEiJin2/-wekeend-project-wsp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "wsp"
+  ],
+  "author": "oleg_lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SEiJin2/-wekeend-project-wsp/issues"
+  },
+  "homepage": "https://github.com/SEiJin2/-wekeend-project-wsp#readme"
+}

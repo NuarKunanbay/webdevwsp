@@ -1,0 +1,314 @@
+/* Connected GT America font */
+@import url(//db.onlinewebfonts.com/c/031da03967812d134ed68febd3ba78a9?family=GT+America);
+@font-face {
+  font-family: "GT America";
+  src: url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.eot");
+  src: url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/031da03967812d134ed68febd3ba78a9.svg#GT America") format("svg");
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65));}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End of cssreset */
+
+/* CSS classes (non-generated) */
+/* Current bugs: 
+Mobile version is not properly supported
+Header and section sizes were modified
+Buttons don't work (no actions specified) */
+
+#navigation_header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1440;
+  height: 10%;
+  background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65)), url(./picture/Rectangle_log.jpg);
+}
+
+#navigation_header .image_logo {
+    margin: 10px 30px 10px 30px;
+}
+
+#navigation_header .account_info {
+    display: flex;
+    justify-content: left;
+    align-items:flex-start;
+    padding: 10px 30px 10px 30px;
+}
+
+#navigation_header .account_info .header_log_in {
+    font-size: 20px;
+    margin: 10px 30px 10px 20px;
+}
+
+#navigation_header .account_info .header_log_in a {
+    color: #DAD9D9;
+    font-family: 'GT America';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+}
+#navigation_header .account_info .header_log_in a:active, 
+#navigation_header .account_info .header_log_in a:focus {
+    color: rgba(194, 179, 179, 0.61);
+}
+
+#navigation_header .account_info .header_log_in a:hover {
+    color:#ffffff67;
+    opacity: 0.8;
+}
+
+#navigation_header .account_info .header_face {
+    margin: 10px 30px 10px 20px;
+}
+
+#navigation_header .account_info .header_exit {
+    margin: 10px 30px 10px 20px;
+}
+
+#navigation_header .account_info .header_exit:hover {
+    color: #ffffff67;
+    opacity: 0.8;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  /* This gradient doesn't look quite right */
+  /* Will need to fix it */
+  background: linear-gradient(0deg, rgba(41, 46, 60, 0.65), rgba(41, 46, 60, 0.65));
+}
+
+#content {
+  display: flex;
+  width: 100%;
+  min-height: 900px;
+  flex: 1;
+}
+
+#tools {
+  flex: 2;
+  background: #292E3C;
+  padding: 10px 20px 20px 10px;
+}
+
+.content_section_header {
+  font-family: 'GT America', Helvetica, sans-serif;
+  color: white;
+  font-size: 48;
+  margin: 10px 20px 30px 30px;
+}
+
+.content_sections {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#news {
+  padding: 10px 20px 20px 10px;
+  flex: 1;
+  background: #242935;
+}
+
+.tools_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tools_list {
+  background: transparent;
+}
+
+.tools_list li {
+  margin: 20px;
+}
+
+.tools_list li {
+  background: transparent;
+}
+
+.tools_element {
+  padding: 15 15 15 15;
+  display: flex;
+}
+
+.tools_element .element_image {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  width: 40px;
+}
+
+.tools_element .element_image img {
+  object-fit: contain;
+}
+
+.tools_element:hover {
+  background-color: rgb(67, 74, 92);
+}
+
+.element_text {
+  margin-left: 15px;
+  color: white;
+  background: transparent;
+}
+
+.news_preview {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 0px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.news_preview .element_image {
+    display: flex;
+    justify-content: center;
+}
+
+.news_preview .element_image img {
+    object-fit: contain;
+}
+
+.news_preview h3 {
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #DAD9D9;
+}

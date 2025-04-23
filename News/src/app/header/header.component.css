@@ -1,0 +1,371 @@
+.header{
+  position: relative;
+  bottom: 15px;
+  background-color: rgb(41 46 60);
+  padding-bottom: 140px;
+}
+
+#line{
+  position: relative;
+  top: 147px;
+  opacity: .3;
+}
+
+#kbtu_logo {
+  position: absolute;
+  width: 221px;
+  height: 66px;
+  left: 67px;
+  top: 40px;
+
+  background: url(KBTULogo.svg);
+}
+
+
+#mcloving{
+  position: absolute;
+  width: 153px;
+  height: 20px;
+  left: 1588px;
+  top: 60px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #DAD9D9;
+}
+
+
+#B21{
+  position: absolute;
+  width: 102px;
+  height: 24px;
+  left: 1639px;
+  top: 96px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #DAD9D9;
+}
+
+
+#home{
+  position: absolute;
+  width: 84px;
+  height: 36px;
+  left: 312px;
+  top: 60px;
+
+  font-family: 'GT America', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #DAD9D9;
+}
+
+#mcloving_image{
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  left: 1761px;
+  top: 55px;
+  border-radius: 35px;
+}
+
+#logout{
+  position: absolute;
+  width: 20px;
+  height: 25.87px;
+  left: 1851px;
+  top: 78px;
+}
+/*
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FF1C1C;
+
+
+Page BG
+
+position: absolute;
+width: 1923px;
+height: 1082px;
+left: -1px;
+top: -1px;
+
+filter: drop-shadow(-10px 14px 13px rgba(0, 0, 0, 0.25));
+
+
+ Fade
+
+position: absolute;
+width: 1923px;
+height: 1082px;
+left: -1px;
+top: -1px;
+
+background: #292E3C;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+Rectangle 18
+
+position: absolute;
+width: 1920px;
+height: 613px;
+left: 2px;
+top: 303px;
+
+background: #33394A;
+
+
+ Main body
+
+
+position: absolute;
+width: 221px;
+height: 66px;
+left: 67px;
+top: 56px;
+
+
+
+ KBTU Logo
+
+position: absolute;
+width: 221px;
+height: 66px;
+left: 67px;
+top: 56px;
+
+background: url(logoWh.png);
+
+
+ Line 1
+
+position: absolute;
+width: 1920px;
+height: 0px;
+left: 0px;
+top: 155px;
+
+border: 1.2px solid #33394A;
+
+
+ Home
+
+position: absolute;
+width: 84px;
+height: 36px;
+left: 312px;
+top: 76px;
+
+font-family: 'GT America';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #DAD9D9;
+
+
+
+ 21B030228
+
+position: absolute;
+width: 102px;
+height: 24px;
+left: 1639px;
+top: 96px;
+
+font-family: 'GT America';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #DAD9D9;
+
+
+
+ mclovin@kbtu.kz
+
+position: absolute;
+width: 153px;
+height: 20px;
+left: 1588px;
+top: 60px;
+
+font-family: 'GT America';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #DAD9D9;
+
+
+
+Icon
+
+position: absolute;
+width: 69px;
+height: 69px;
+left: 1761px;
+top: 55px;
+
+
+
+ Ellipse 4
+
+position: absolute;
+width: 69px;
+height: 69px;
+left: 1761px;
+top: 55px;
+
+background: #C4C4C4;
+
+
+ i1glbLlBIP8 1
+
+position: absolute;
+width: 83px;
+height: 85px;
+left: 1761px;
+top: 55px;
+
+background: url(i1glbLlBIP8.jpg);
+
+
+ Exit icon
+
+position: absolute;
+width: 20px;
+height: 25.87px;
+left: 1851px;
+top: 78px;
+
+
+Arrow 2
+
+position: absolute;
+width: 12.86px;
+height: 0.07px;
+left: 1858.14px;
+top: 90.49px;
+
+background: #DAD9D9;
+border: 1.7px solid #DAD9D9;
+box-sizing: border-box;
+transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+
+
+ Subtract
+
+position: absolute;
+width: 18.91px;
+height: 25.87px;
+left: 1851px;
+top: 78px;
+
+background: #DAD9D9;
+
+
+Rectangle 18
+
+position: absolute;
+width: 19.13px;
+height: 25.87px;
+left: 1851px;
+top: 78px;
+
+background: #C4C4C4;
+border-radius: 4px;
+
+
+Rectangle 19
+
+position: absolute;
+width: 18.07px;
+height: 21.03px;
+left: 1852.78px;
+top: 80.68px;
+
+background: #C4C4C4;
+
+
+ Ruslan finally made design
+
+position: absolute;
+width: 384px;
+height: 36px;
+left: 718px;
+top: 409px;
+
+font-family: 'GT America';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+
+
+adaca74cd377cdaa72458123f5c5ac321407108992 1
+
+position: absolute;
+width: 605px;
+height: 405px;
+left: 67px;
+top: 407px;
+
+background: url(photo_2021-11-23_12-26-33.jpg);
+border-radius: 59px;
+
+
+ So will the real Shady, please stand up? And put one of those fingers, on each hand up And be proud to be outta your mind and outta control And one more time loud as you can, how does it go? I'm Slim Shady, yes, I'm the real Shady All you other Slim Shadys, are just imitating So won't the real Slim Shady, please stand up? Please stand up, please stand up 'Cause I'm Slim Shady, yes, I'm the real Shady All you other Slim Shadys, are just imitating So won't the real Slim Shady, please stand up? Please stand up, please stand up 'Cause I'm Slim Shady, yes, I'm the real Shady All you other Slim Shadys, are just imitating So won't the real Slim Shady, please stand up? Please stand up, please stand up 'Cause I'm Slim Shady, yes, I'm the real Shady All you other Slim Shadys, are just imitating So won't the real Slim Shady, please stand up? Please stand up, please stand up Haha, guess there's a Slim Shady in all of us Fuck it, let's all stand up
+
+
+position: absolute;
+width: 1147px;
+height: 290px;
+left: 718px;
+top: 470px;
+
+font-family: 'GT America';
+font-style: normal;
+font-weight: 400;
+font-size: 24
+line-height: 29
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+Arrow 5
+
+position: absolute;
+width: 35px;
+height: 0px;
+left: 131px;
+top: 212px;
+
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+transform: rotate(-180deg);
+*/

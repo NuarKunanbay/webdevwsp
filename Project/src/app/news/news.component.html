@@ -1,0 +1,47 @@
+<app-header></app-header>
+
+<div id="new">
+  <div class="news">
+    <h1 id="h1_news">News</h1>
+  </div>
+</div>
+
+<div class="main">
+  <div id="content">
+    <div class="first_column" *ngFor="let n of first_column">
+      <img class="images" width="272px" height="138px" src="{{n.image}}" alt="image">
+      <h2 class="title">{{n.title}}</h2>
+      <div class="text">
+        <span class="description"> {{n.short_description}}</span>
+      </div>
+      <a routerLink="/home/news/{{n.id}}"><button class="more">More...</button></a>
+      <span class="date"> {{n.date.month}} {{n.date.day}}, {{n.date.year}} {{n.date.time}} </span>
+    </div>
+
+
+    <div class="second_column" *ngFor="let n of second_column">
+      <img class="images" width="272px" height="138px" src="{{n.image}}" alt="image">
+      <h2 class="title">{{n.title}}</h2>
+      <div class="text">
+        <span class="description"> {{n.short_description}}
+        </span>
+      </div>
+      <a routerLink="/home/news/{{n.id}}" ><button class="more">More...</button></a>
+      <span class="date"> {{n.date.month}} {{n.date.day}}, {{n.date.year}} {{n.date.time}} </span>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <span id="one" class="dot"></span>
+  <span id="two" class="dot"></span>
+  <span id="three" class="dot"></span>
+  <span id="four" class="dot"></span>
+  <span id="five" class="dot"></span>
+  <span id="six" class="dot"></span>
+  <span id="seven" class="dot"></span>
+  <img (click)="Click_left()" id="left_arrow" src="assets/Arrow_left.png" alt="img">
+  <img (click)="Click_right()" id="right_arrow" src="assets/Arrow_right.png" alt="img">
+  <!--<ngb-pagination class="d-flex justify-content-center" id="pagination" (pageChange)="ChangePage($event)" [collectionSize]="collection_size" [pageSize]="items_on_page"  [(page)]="page" [maxSize]="5" [rotate]="true" [ellipses]="false" [boundaryLinks]="true"></ngb-pagination>
+-->
+</footer>

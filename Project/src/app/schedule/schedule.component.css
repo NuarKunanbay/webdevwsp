@@ -1,0 +1,106 @@
+.main{
+  position: absolute;
+  background-color: rgb(41 46 60);
+  height: 833px;
+  bottom: 0;
+  width: 1920px;
+}
+
+
+#table{
+  position: relative;
+  left: 56px;
+  bottom: -5px;
+  background-color: #33394a;
+  color: white;
+}
+
+.head{
+  font-family: 'GT America Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+td{
+  border: 1px solid #4b546c;
+  width: 186px;
+  text-align: center;
+  height: 47px;
+}
+
+.light{
+  background-color: #5d8aff;
+  color: #FFFFFF;
+
+  font-family: Bahnschrift;
+  font-weight: lighter;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+}
+
+#top{
+  height: 70px;
+}
+
+#meetings{
+  background-color: #242935;
+  position: absolute;
+  left: 1365px;
+  bottom: 0;
+  height: 830px;
+  width: 555px;
+  color: white;
+}
+
+h3{
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.meeting{
+  position: absolute;
+  width: 500px;
+  left: 30px;
+  height: 150px;
+  top: 120px;
+
+  background: #C4C4C4;
+  border-radius: 20px;
+}
+
+#second{
+  top: 290px;
+}
+
+#third{
+  top: 460px;
+}
+
+#fourth{
+  top: 630px;
+}
+
+.view{
+  position: absolute;
+
+  border: none;
+  background-color: inherit;
+  color: #5D8AFF;
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  top: 60px;
+  left: 390px;
+}

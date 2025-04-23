@@ -1,0 +1,72 @@
+.head{
+  position: relative;
+  background-color: rgb(41 46 60);
+  height: 80px;
+  bottom: 15px;
+}
+
+
+.main{
+  background-color: #33394a;
+  height: 573px;
+  position: relative;
+  bottom: 15px;
+}
+
+.footer{
+  position: absolute;
+  background-color: rgb(41 46 60);
+  top: 810px;
+  width: 1920px;
+  height: 130px;
+}
+
+#image{
+  position: relative;
+  left: 50px;
+  top: 100px;
+  border-radius: 40px;
+}
+
+#title{
+  position: absolute;
+  width: 384px;
+  height: 36px;
+  left: 718px;
+  top: 109px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+#description{
+  position: absolute;
+  width: 1147px;
+  height: 340px;
+  left: 718px;
+  top: 150px;
+
+  font-family: 'GT America';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+#arrow{
+  position: relative;
+  top: 10px;
+  left: 80px;
+}
+
+#arrow:hover{
+  cursor: pointer;
+}
